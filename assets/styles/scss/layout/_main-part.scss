@@ -1,14 +1,31 @@
 .selling_items_container {
   display: flex;
   flex-direction: column;
+  margin: 0 10px;
   .text_and_button {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: 15px 0;
+    padding: 15px;
+    .view-all {
+      border: none;
+      outline: none;
+      padding: 8px 20px;
+      color: white;
+      background-color: #2874f0;
+    }
     .text_offer_container {
       display: flex;
       flex-direction: column;
+      line-height: 26px;
+      h2 {
+        font-size: 20px;
+      }
+      h5 {
+        color: grey;
+      }
     }
   }
   .selling_items {
@@ -19,7 +36,18 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      margin: 0 10px;
+      margin: 0 20px;
+      line-height: 23px;
+      font-size: 14px;
+      img:hover {
+        transform: scale(1.1);
+      }
+      .items_text_discount {
+        color: #388e3c;
+      }
+      .items_text_description {
+        color: grey;
+      }
     }
   }
 }
