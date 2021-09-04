@@ -173,4 +173,22 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+#slider {
+  overflow: hidden;
+}
+
+#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  -webkit-animation: 5s slider infinite;
+          animation: 5s slider infinite;
+}
+
+#slider figure img {
+  width: 20%;
+  float: left;
+}
 /*# sourceMappingURL=main.css.map */
