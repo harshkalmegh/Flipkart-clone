@@ -226,7 +226,7 @@
   overflow: hidden;
 }
 
-.slider figure {
+.slider .figure {
   position: relative;
   width: 500%;
   margin: 0;
@@ -235,7 +235,7 @@
           animation: 20s slider infinite;
 }
 
-.slider figure img {
+.slider .figure img {
   width: 20%;
   float: left;
 }
@@ -309,6 +309,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 0 10px;
+  border-bottom: 5px solid lightgrey;
 }
 
 .selling_items_container .text_and_button {
