@@ -1,0 +1,133 @@
+footer {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 14px;
+  min-width: 978px;
+  background-color: #ffffff;
+  a {
+    text-decoration: none;
+    color: #565656;
+  }
+  .footer-info {
+    width: 100%;
+    .top-stories {
+      padding: 15px 25px;
+      color: #848484;
+      h4 {
+        padding: 14px 0;
+        font-weight: 500;
+        a {
+          margin-left: 3px;
+        }
+      }
+      .link-container {
+        margin: 3px 0;
+        line-height: 1.4;
+        .link-title {
+          margin-right: 3px;
+          text-transform: uppercase;
+          color: #848484;
+        }
+        .footer-link-content {
+          padding: 0 5px;
+          font-size: 12px;
+          border-right: 1px solid #333;
+        }
+      }
+    }
+    .flipkart-info {
+      padding: 0 25px;
+      color: #848484;
+      .text-content {
+        margin: 30px 0 13px;
+        line-height: 16px;
+        font-size: 11px;
+        h1 {
+          font-size: 16px;
+          margin-bottom: 10px;
+          font-weight: 700;
+        }
+        h2 {
+          font-size: 16px;
+          margin-bottom: 10px;
+          font-weight: 700;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .footer-main {
+    width: 100%;
+    background-color: #172337;
+    .f-top {
+      margin-left: 65px;
+      width: 90% !important;
+      padding-top: 40px;
+      display: flex;
+      flex-direction: row;
+      flex: 1;
+      .ft-section {
+        flex: 2;
+        height: fit-content;
+        .ft-section-title {
+          color: #878787;
+          font-size: 12px;
+          font-weight: 400;
+          margin-bottom: 9px;
+        }
+        .ft-section-link {
+          line-height: 2;
+          font-weight: 500;
+          color: #ffffff;
+          display: block;
+          font-weight: 400;
+          font-size: 12px;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+        p {
+          font-size: 12px;
+          flex-wrap: wrap;
+          color: #ffffff;
+          line-height: 17px;
+          a {
+            color: #2874f0;
+          }
+        }
+      }
+      .address {
+        padding: 0 25px;
+      }
+    }
+    .f-bottom {
+      border-top: 1px solid #454d5e;
+      padding: 25px 0;
+      margin-top: 40px;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      .fb-link {
+        height: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        svg {
+          height: 15px;
+        }
+        a {
+          margin-left: 5px;
+          color: #ffffff;
+        }
+        p {
+          color: #ffffff;
+        }
+      }
+      svg {
+        &:last-child {
+          height: 20px;
+        }
+      }
+    }
+  }
+}
