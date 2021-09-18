@@ -664,7 +664,7 @@ footer {
 
 footer a {
   text-decoration: none;
-  color: white;
+  color: #565656;
 }
 
 footer .footer-info {
@@ -827,7 +827,7 @@ footer .footer-main .f-bottom .fb-link svg {
   height: 15px;
 }
 
-footer .footer-main .f-bottom .fb-link .a1 {
+footer .footer-main .f-bottom .fb-link a {
   margin-left: 5px;
   color: #ffffff;
 }
