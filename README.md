@@ -15,10 +15,6 @@ When the Assignment was given Firstly I had gone through the actual Flipkart Hom
 - HTML
 - SCSS
 
-## Features
-
--
-
 ## Contact
 
 Harsh Kalmegh - harshkalmegh3@gmail.com
