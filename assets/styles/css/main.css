@@ -87,6 +87,7 @@
   border: none;
   font-weight: 600;
   margin: 0 30px;
+  cursor: pointer;
 }
 
 .navbar_container .more {
@@ -106,6 +107,7 @@
           justify-content: center;
   font-weight: 600;
   margin: 0 20px;
+  cursor: pointer;
 }
 
 .navbar_container .more_svg {
@@ -118,6 +120,7 @@
   color: white;
   font-weight: 600;
   margin: 0 35px;
+  cursor: pointer;
 }
 
 .items_container {
@@ -149,6 +152,19 @@
   cursor: pointer;
 }
 
+.items_container .items .item_text_svg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .items_container .items ul {
   list-style: none;
   position: relative;
@@ -171,10 +187,24 @@
   margin: 0;
   padding: 0;
   z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.items_container .items ul a {
+  color: black;
 }
 
 .items_container .items ul a:hover {
-  background-color: rgba(0, 0, 0, 0.075);
+  color: #2874f0;
 }
 
 .items_container .items ul li:hover > ul {
@@ -184,6 +214,7 @@
 .items_container .items ul ul {
   position: absolute;
   display: none;
+  top: 99px;
 }
 
 .items_container .items ul ul li {
@@ -199,6 +230,7 @@
 .items_container .items .items_svg {
   -webkit-transform: rotate(270deg);
           transform: rotate(270deg);
+  margin: 5px 0 0 5px;
 }
 
 .items_container .items img {
