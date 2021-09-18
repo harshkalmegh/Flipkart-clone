@@ -272,8 +272,11 @@ header {
         width: 200px;
         background-color: white;
         color: black;
+        display: flex;
+        align-items: center;
       }
       a:hover {
+        background-color: #ececec;
         color: #2874f0;
       }
       li:hover > ul {

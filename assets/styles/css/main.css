@@ -425,9 +425,16 @@ header .nav .cart p {
   width: 200px;
   background-color: white;
   color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .items_container .items ul a:hover {
+  background-color: #ececec;
   color: #2874f0;
 }
 
