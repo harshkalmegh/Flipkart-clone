@@ -105,7 +105,7 @@ header {
         margin-top: 5px;
         width: 20px;
         height: 20px;
-        margin-left: 50%;
+        margin-left: 45%;
         transform: translateX(-50%);
         transform: rotate(45deg);
         background-color: #ffffff;
@@ -152,7 +152,7 @@ header {
               line-height: 18px;
             }
             &:hover {
-              background-color: #fafafa;
+              background-color: #ececec;
             }
           }
         }
@@ -168,7 +168,7 @@ header {
       button {
         height: 30px;
         padding: 5px 40px;
-        font-weight: 700;
+        font-weight: 500;
         cursor: pointer;
         font-size: 14px;
         border: 1px solid #dbdbdb;
@@ -191,7 +191,7 @@ header {
       cursor: pointer;
       font-weight: 500;
       p {
-        margin-right: 10px;
+        margin-right: 5px;
       }
       span {
         svg {
@@ -206,7 +206,7 @@ header {
         }
         span {
           svg {
-            transform: rotate(-270deg);
+            transform: rotate(-90deg);
           }
         }
       }
@@ -267,6 +267,8 @@ header {
         background-color: white;
       }
       a {
+        padding: 20px;
+        height: 45px;
         width: 200px;
         background-color: white;
         color: black;

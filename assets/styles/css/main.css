@@ -173,7 +173,7 @@ header .nav .dropdown .triangle {
   margin-top: 5px;
   width: 20px;
   height: 20px;
-  margin-left: 50%;
+  margin-left: 45%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   -webkit-transform: rotate(45deg);
@@ -253,7 +253,7 @@ header .nav .dropdown .list-container ul li span {
 }
 
 header .nav .dropdown .list-container ul li:hover {
-  background-color: #fafafa;
+  background-color: #ececec;
 }
 
 header .nav .dropdown:hover {
@@ -269,7 +269,7 @@ header .nav .btn-login {
 header .nav .btn-login button {
   height: 30px;
   padding: 5px 40px;
-  font-weight: 700;
+  font-weight: 500;
   cursor: pointer;
   font-size: 14px;
   border: 1px solid #dbdbdb;
@@ -300,7 +300,7 @@ header .nav .more {
 }
 
 header .nav .more p {
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 header .nav .more span svg {
@@ -318,8 +318,8 @@ header .nav .more:hover .dropdown {
 }
 
 header .nav .more:hover span svg {
-  -webkit-transform: rotate(-270deg);
-          transform: rotate(-270deg);
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
 }
 
 header .nav .cart {
@@ -420,6 +420,8 @@ header .nav .cart p {
 }
 
 .items_container .items ul a {
+  padding: 20px;
+  height: 45px;
   width: 200px;
   background-color: white;
   color: black;
@@ -662,7 +664,7 @@ footer {
 
 footer a {
   text-decoration: none;
-  color: #565656;
+  color: white;
 }
 
 footer .footer-info {
